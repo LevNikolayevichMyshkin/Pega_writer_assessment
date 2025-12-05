@@ -8,13 +8,13 @@ theme:
     - navigation.path
     - content.code.copy
     - navigation.indexes
-
+use_directory_urls: false
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true
   - attr_list
   - md_in_html
   - admonition
@@ -22,17 +22,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      options:
-        custom_icons:
-          - overrides/.icons
   - toc:
-     permalink: "#"
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-      options:
-        custom_icons:
-          - overrides/.icons
+      permalink: "#"
 nav:
-   - index.md
-   - Task 1. How to use a bike: bike.md
+  - index.md
+  - Task 1. How to use a bike: bike.md
