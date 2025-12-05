@@ -25,6 +25,8 @@ jobs:
         run: |
           pip install mkdocs
           pip install mkdocs-material
+      - name: Clean site folder
+        run: rm -rf site
       - name: Build site
         run: mkdocs build --site-dir site
       - name: Upload artifact
