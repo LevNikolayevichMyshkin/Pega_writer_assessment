@@ -1,5 +1,5 @@
 site_name: Technical Writer task - Michał Krawczyk
-site_url: http://www.test.com
+site_url: https://LevNikolayevichMyshkin.github.io/Pega_writer_assessment/
 theme:
   name: material
   features:
@@ -8,7 +8,9 @@ theme:
     - navigation.path
     - content.code.copy
     - navigation.indexes
+
 use_directory_urls: false
+
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.inlinehilite
@@ -24,6 +26,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - toc:
       permalink: "#"
+
 nav:
   - index.md
   - Task 1. How to use a bike: bike.md
